@@ -19,6 +19,7 @@
   font-size: 3.5rem;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
+  font-weight: bolder;
 }
 .header .head:hover {
   color: beige;
@@ -36,4 +37,5 @@
 
 body {
   background-image: radial-gradient(circle, #484f5e, #434a58, #3f4551, #3a404b, #363b45, #323840, #2e343c, #2a3137, #272f33, #252c2e, #242a2a, #232726);
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=App.css.map */

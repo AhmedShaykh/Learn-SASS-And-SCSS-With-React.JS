@@ -22,6 +22,7 @@
     .head {
         letter-spacing: .3rem;
         @include common(2rem + 1.5rem ,.3rem);
+        font-weight: bolder;
 
         &:hover {
             color: beige;
@@ -44,4 +45,5 @@
 
 body {
     background-image: $bg-color;
+    background-repeat: no-repeat;
 }
