@@ -1,0 +1,17 @@
+// ------------- Mixin & Include ------------- //
+
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+// ------------- Parameters ------------- //
+
+@mixin common($font, $space) {
+    color: rgb(12, 13, 14);
+    font-size: $font;
+    letter-spacing: $space;
+    text-transform: uppercase;
+}

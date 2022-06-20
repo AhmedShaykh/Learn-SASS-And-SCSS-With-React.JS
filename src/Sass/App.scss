@@ -1,26 +1,13 @@
+// ------------- Partials ------------- //
+
+@import "var.scss";
+@import "mixin.scss";
+
 * {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-}
-
-// ------------- Mixin & Include ------------- //
-
-@mixin flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-// ------------- Parameters ------------- //
-
-@mixin common($font,$space) {
-    color: rgb(33, 35, 37);
-    font-size: $font;
-    letter-spacing: $space;
-    text-transform: uppercase;
 }
 
 // ------------- Nesting ------------- //
@@ -55,8 +42,6 @@
 
 // ------------- Variables ------------- //
 
-$bg-color : rgb(21, 184, 168);
-
 body {
-    background-color: $bg-color;
+    background-image: $bg-color;
 }
