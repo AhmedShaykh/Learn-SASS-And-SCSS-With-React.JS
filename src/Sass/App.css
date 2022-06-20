@@ -1,0 +1,16 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  background-color: rgb(18, 169, 154);
+  font-family: "Poppins", sans-serif;
+}
+
+.head {
+  font-size: 22px;
+  width: 100vw;
+  height: 100vh;
+  color: rgb(33, 35, 37);
+  display: grid;
+  place-items: center;
+}/*# sourceMappingURL=App.css.map */
