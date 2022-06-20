@@ -5,15 +5,43 @@
     font-family: 'Poppins', sans-serif;
 }
 
-// ------------- Sass Operators ------------- //
+// ------------- Mixin & Include ------------- //
 
-.head {
-    font-size: 2rem + 2rem;
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+// ------------- Nesting ------------- //
+
+.header {
     width: 100vw;
     height: 100vh;
-    color: rgb(33, 35, 37);
-    display: grid;
-    place-items: center;
+    @include flex;
+
+    // ------------- Sass Operators ------------- //
+
+    .head {
+        font-size: 2rem + 1.5rem;
+        color: rgb(33, 35, 37);
+
+        &:hover {
+            color: beige;
+        }
+    }
+
+
+    p {
+        font-size: 1.5rem + 1.5rem;
+        color: rgb(33, 35, 37);
+
+        &:hover {
+            color: rgb(253, 166, 4);
+        }
+    }
+
 }
 
 // ------------- Variables ------------- //

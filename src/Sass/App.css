@@ -5,13 +5,27 @@
   font-family: "Poppins", sans-serif;
 }
 
-.head {
-  font-size: 4rem;
+.header {
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header .head {
+  font-size: 3.5rem;
   color: rgb(33, 35, 37);
-  display: grid;
-  place-items: center;
+}
+.header .head:hover {
+  color: beige;
+}
+.header p {
+  font-size: 3rem;
+  color: rgb(33, 35, 37);
+}
+.header p:hover {
+  color: rgb(253, 166, 4);
 }
 
 body {

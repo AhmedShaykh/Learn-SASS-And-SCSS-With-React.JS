@@ -2,10 +2,11 @@ import React from 'react';
 
 function Sass() {
     return (
-        <div>
+        <div className='header'>
             <h3 className='head'>
-                Learning SASS And SCSS With React.JS
+                Learn SASS And SCSS In React.JS
             </h3>
+            <p>Buy & Sell Bitcoin</p>
         </div>
     )
 }
