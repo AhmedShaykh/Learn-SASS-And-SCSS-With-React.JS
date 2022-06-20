@@ -3,9 +3,9 @@ import React from 'react';
 function Sass() {
     return (
         <div>
-            <h1 className='head'>
+            <h3 className='head'>
                 Learning SASS And SCSS With React.JS
-            </h1>
+            </h3>
         </div>
     )
 }
