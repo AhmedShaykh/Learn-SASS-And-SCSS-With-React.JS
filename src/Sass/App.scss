@@ -14,6 +14,13 @@
     flex-direction: column;
 }
 
+@mixin common($font) {
+    color: rgb(33, 35, 37);
+    font-size: $font;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+}
+
 // ------------- Nesting ------------- //
 
 .header {
@@ -24,8 +31,8 @@
     // ------------- Sass Operators ------------- //
 
     .head {
-        font-size: 2rem + 1.5rem;
-        color: rgb(33, 35, 37);
+        letter-spacing: .3rem;
+        @include common(2rem + 1.5rem);
 
         &:hover {
             color: beige;
@@ -34,8 +41,8 @@
 
 
     p {
-        font-size: 1.5rem + 1.5rem;
-        color: rgb(33, 35, 37);
+        letter-spacing: .2rem;
+        @include common(1.5rem + 1.5rem);
 
         &:hover {
             color: rgb(253, 166, 4);

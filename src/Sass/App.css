@@ -14,15 +14,21 @@
   flex-direction: column;
 }
 .header .head {
-  font-size: 3.5rem;
+  letter-spacing: 0.3rem;
   color: rgb(33, 35, 37);
+  font-size: 3.5rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
 }
 .header .head:hover {
   color: beige;
 }
 .header p {
-  font-size: 3rem;
+  letter-spacing: 0.2rem;
   color: rgb(33, 35, 37);
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
 }
 .header p:hover {
   color: rgb(253, 166, 4);
